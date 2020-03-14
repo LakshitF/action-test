@@ -8,3 +8,5 @@ jobs:
     - name: Run Action Step
       id: hello
       uses: actions/PyLint-Action@v1
+      with:
+        filename: 'test.py'
