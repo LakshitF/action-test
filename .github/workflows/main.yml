@@ -7,6 +7,6 @@ jobs:
     steps:
     - name: Run Action Step
       id: hello
-      uses: LakshitF/pylint3-action@v3
+      uses: actions/pylint3-action@v4
       with:
         filename: 'test.py'
